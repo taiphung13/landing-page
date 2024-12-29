@@ -448,6 +448,19 @@ nav-link {
 	margin: 2px;
 }
 
+@media (max-width: 767px) {
+	.toast-body-title {
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	.toast-body-content {
+		font-size: 12px;
+		line-height: 14px;
+		white-space: initial;
+	}
+}
+
 footer {
 	display: flex;
 	justify-content: space-between;
